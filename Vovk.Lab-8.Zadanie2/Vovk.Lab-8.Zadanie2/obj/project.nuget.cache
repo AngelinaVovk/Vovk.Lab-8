@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "IwmkIzC6g2Gn0qdEkKuj1HRRAR78/h3/wT2QY+SquvFZRf17aJ2RmfYPeR2Z4OAFYzekcQj87S1ey/j3QArhEw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\667\\source\\repos\\Lab8\\Vovk.Lab-8.Zadanie2\\Vovk.Lab-8.Zadanie2\\Vovk.Lab-8.Zadanie2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\667\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -2,9 +2,9 @@
 using System.IO;
 using System.Linq;
 using System.Text.RegularExpressions;
-namespace Vovk.Lab8
+namespace Vovk.Lab8_1
 {
-    class Class1
+    class Program
     {
         static void Main(string[] args)
         {
