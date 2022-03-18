@@ -12,6 +12,7 @@ namespace Vovk.Lab8_2
 {
     class OtdelKadrov1
     {
+        //методы доступа get и set реализуют доступ на чтение и запись
         public string Фамилия { get; set; }
         public string Должность { get; set; }
         public double Стаж { get; set; }
@@ -34,6 +35,7 @@ namespace Vovk.Lab8_2
         static void Main(string[] args)
         {
             var p = @"C:\Users\667\source\repos\Vovk.Lab-8.Zadanie2\Table.csv";
+            //Представляет кодировку символов
             Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
             Encoding encoding = Encoding.GetEncoding("windows-1251");
             var lines = File.ReadAllLines(p); ;
