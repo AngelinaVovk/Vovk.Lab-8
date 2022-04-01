@@ -2,7 +2,7 @@
 using System.IO;
 using System.Linq;
 using System.Text.RegularExpressions;
-namespace Vovk.Lab8_1
+namespace Vovk.Lab
 {
     class Program
     {
@@ -10,7 +10,8 @@ namespace Vovk.Lab8_1
         {
             try
             {
-                string n = "C:\\Users\\667\\Desktop\\Text.txt";
+                string n = @"C:\Users\667\source\repos\Lab8\Vovk.Lab-8.Zadanie1\Vovk.Lab-8.Zadanie1\bin\Debug\net6.0\text (2).txt";
+                string o = "..\\..\\..\\Text.txt";
                 //Предоставляет свойства и методы экземпляра для создания, копирования, удаления, перемещения и открытия файлов
                 FileInfo f = new FileInfo(n);
                 var result = "Result.txt";
@@ -18,7 +19,7 @@ namespace Vovk.Lab8_1
                 {
                     streamWriter.WriteLine("Название файла: {0}", f.Name);
                     streamWriter.WriteLine("Абсолютный путь к файлу: {0}", n);
-                    streamWriter.WriteLine("Относительный путь к файлу: {0}", "..\\..\\..\\Text.txt");
+                    streamWriter.WriteLine("Относительный путь к файлу: {0}" + o);
                     streamWriter.WriteLine("Время создания файла: {0}", f.CreationTime);
                     streamWriter.WriteLine("Размер файла: {0}", f.Length);
                     //Открывает текстовый файл, считывает весь текст файла в строку и затем закрывает файл.
