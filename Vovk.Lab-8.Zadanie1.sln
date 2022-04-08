@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vovk.Lab-8.Zadanie2", "Vovk
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E4FF168E-AD6C-4BBD-A0AB-9909783C4068}"
 	ProjectSection(SolutionItems) = preProject
-		Vovk.Lab-8.Zadanie2\Vovk.Lab-8.Zadanie2\bin\Debug\net6.0\TABLE.csv = Vovk.Lab-8.Zadanie2\Vovk.Lab-8.Zadanie2\bin\Debug\net6.0\TABLE.csv
+		Vovk.Lab-8.Zadanie2\Vovk.Lab-8.Zadanie2\bin\Debug\net6.0\Table.txt = Vovk.Lab-8.Zadanie2\Vovk.Lab-8.Zadanie2\bin\Debug\net6.0\Table.txt
 		Vovk.Lab-8.Zadanie1\Vovk.Lab-8.Zadanie1\bin\Debug\net6.0\text (2).txt = Vovk.Lab-8.Zadanie1\Vovk.Lab-8.Zadanie1\bin\Debug\net6.0\text (2).txt
 	EndProjectSection
 EndProject

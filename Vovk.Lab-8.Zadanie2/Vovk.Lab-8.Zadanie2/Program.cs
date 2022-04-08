@@ -34,14 +34,14 @@ namespace Vovk.Lab8.Zadanie2
     {
         static void Main(string[] args)
         {
-            var p = @"C:\Users\667\source\repos\Lab8\Vovk.Lab-8.Zadanie2\Vovk.Lab-8.Zadanie2\bin\Debug\net6.0\TABLE.csv";
+            var p = @"C:\Users\667\source\repos\Lab8\Vovk.Lab-8.Zadanie2\Vovk.Lab-8.Zadanie2\bin\Debug\net6.0\Table.txt";
             //Представляет кодировку символов
             Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
             Encoding encoding = Encoding.GetEncoding("windows-1251");
             var lines = File.ReadAllLines(p, encoding);
             Console.WriteLine(lines);
             var OtdelKadrov = new OtdelKadrov1[lines.Length - 1];
-            for (var i = 8; i < lines.Length; i++)
+            for (var i = 1; i < lines.Length; i++)
             {
                 var splits = lines[i].Split(';');
                 var o = new OtdelKadrov1();
@@ -58,7 +58,7 @@ namespace Vovk.Lab8.Zadanie2
             using (StreamWriter streamWriter = new StreamWriter(result, false, encoding))
             {
                 streamWriter.WriteLine($"Фамилия; Стаж; Должность; Отдел; Оклад; Годовой Доход; Год Рождения; Возраст");
-                for (int i = 8; i < OtdelKadrov.Length; i++)
+                for (int i = 0; i < OtdelKadrov.Length; i++)
                 {
                     streamWriter.WriteLine(OtdelKadrov[i].ToExcel());
                 }
